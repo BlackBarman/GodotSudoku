@@ -1,0 +1,293 @@
+[gd_scene load_steps=3 format=3 uid="uid://cl2pwdxherjqm"]
+
+[ext_resource type="Script" path="res://Sudoku.gd" id="1_3e44k"]
+[ext_resource type="PackedScene" uid="uid://bnfi5wlcxs1jw" path="res://Cella.tscn" id="2_gbesx"]
+
+[node name="GridContainer" type="GridContainer"]
+editor_description = "sudoku grid 
+"
+offset_left = 232.305
+offset_top = 20.02
+offset_right = 867.305
+offset_bottom = 628.02
+columns = 9
+script = ExtResource("1_3e44k")
+
+[node name="Control" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+text = "1"
+
+[node name="Control2" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+text = "2"
+
+[node name="Control3" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+text = "3"
+
+[node name="Control4" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+text = "4"
+
+[node name="Control5" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+text = "5"
+
+[node name="Control6" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+text = "6"
+
+[node name="Control7" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+text = "7"
+
+[node name="Control8" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+text = "8"
+
+[node name="Control9" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+text = "9"
+
+[node name="Control10" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+text = "2"
+
+[node name="Control11" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+text = "8"
+
+[node name="Control12" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+text = "1"
+
+[node name="Control13" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control14" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control15" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control16" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+text = "5"
+
+[node name="Control17" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+text = "9"
+
+[node name="Control18" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+text = "6"
+
+[node name="Control19" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+text = "3"
+
+[node name="Control20" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+text = "9"
+
+[node name="Control21" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+text = "3"
+
+[node name="Control22" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control23" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control24" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control25" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+text = "7"
+
+[node name="Control26" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+text = "1"
+
+[node name="Control27" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+text = "2"
+
+[node name="Control28" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+text = "4"
+
+[node name="Control29" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control30" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control31" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control32" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control33" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control34" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control35" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control36" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control37" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+text = "5"
+
+[node name="Control38" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control39" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control40" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control41" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control42" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control43" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control44" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control45" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control46" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+text = "6"
+
+[node name="Control47" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control48" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control49" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control50" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control51" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control52" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control53" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control54" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control55" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+text = "7"
+
+[node name="Control56" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control57" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control58" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control59" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control60" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control61" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+text = "1"
+
+[node name="Control62" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+text = "2"
+
+[node name="Control63" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+text = "3"
+
+[node name="Control64" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+text = "8"
+
+[node name="Control65" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control66" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control67" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control68" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control69" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control70" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+text = "4"
+
+[node name="Control71" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+text = "5"
+
+[node name="Control72" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+text = "6"
+
+[node name="Control73" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+text = "9"
+
+[node name="Control74" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control75" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control76" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control77" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control78" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+
+[node name="Control79" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+text = "7"
+
+[node name="Control80" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+text = "8"
+
+[node name="Control81" parent="." instance=ExtResource("2_gbesx")]
+layout_mode = 2
+text = "9"

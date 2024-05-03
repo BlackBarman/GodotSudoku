@@ -1,0 +1,32 @@
+[gd_scene load_steps=3 format=3 uid="uid://diiceqcy0ym2"]
+
+[ext_resource type="Script" path="res://testscript.gd" id="1_4lrhf"]
+[ext_resource type="PackedScene" uid="uid://bnfi5wlcxs1jw" path="res://Cella.tscn" id="2_jwynl"]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(936, 261)
+script = ExtResource("1_4lrhf")
+
+[node name="Control" parent="." instance=ExtResource("2_jwynl")]
+offset_left = 311.0
+offset_top = -182.0
+offset_right = 378.063
+offset_bottom = -118.0
+text = "6"
+metadata/_edit_use_anchors_ = true
+
+[node name="Control2" parent="." instance=ExtResource("2_jwynl")]
+offset_left = 286.0
+offset_top = -62.0
+offset_right = 353.063
+offset_bottom = 2.0
+text = "2"
+metadata/_edit_use_anchors_ = true
+
+[node name="Control3" parent="." instance=ExtResource("2_jwynl")]
+offset_left = 72.0
+offset_top = -123.0
+offset_right = 139.063
+offset_bottom = -59.0
+text = "5"
+metadata/_edit_use_anchors_ = true
