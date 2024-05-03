@@ -2,6 +2,7 @@ extends LineEdit
 
 
 func _ready():
+	print("hello World!")
 	pass
 
 func _on_text_changed(_new_text):
