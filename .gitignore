@@ -14,3 +14,10 @@ export_presets.cfg
 .mono/
 data_*/
 mono_crash.*.json
+SudokuGodot/.godot/editor/editor_layout.cfg
+SudokuGodot/.godot/editor/script_editor_cache.cfg
+
+SudokuGodot/IMG/Thumbnail.png
+SudokuGodot/IMG/Thumbnail.png.import
+SudokuGodot/.godot/editor/editor_layout.cfg
+SudokuGodot/.godot/editor/project_metadata.cfg
